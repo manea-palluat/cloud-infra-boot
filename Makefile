@@ -12,3 +12,9 @@ fmt:
 
 validate:
 	docker compose run terraform validate
+
+clean:
+	docker compose down --remove-orphans
+
+destroy:
+	docker compose run terraform destroy
