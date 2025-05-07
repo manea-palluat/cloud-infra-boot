@@ -23,3 +23,14 @@ Modular AWS infrastructure with Terraform, CI/CD, FinOps dashboards, budget aler
 make init     # initialize Terraform
 make plan     # preview infrastructure changes
 make apply    # apply infrastructure changes
+
+## ⚙️ Setup CI/CD in your fork
+
+1. Go to your fork → Settings → Secrets → Actions
+
+2. Add the following secrets:
+   - AWS_ACCESS_KEY_ID
+   - AWS_SECRET_ACCESS_KEY
+   - AWS_REGION
+
+3. GitHub Actions will now work on push.
