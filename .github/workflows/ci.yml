@@ -15,7 +15,7 @@ jobs:
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
             AWS_REGION: ${{ secrets.AWS_REGION }}
 
-#If you see errors up here, don't panic : AWS secrets are injected via GitHub repository secrets
+#If you see errors up here, don't panic : AWS secrets are injected via GitHub repository secrets ;)
 
         steps:
             - name: Checkout
