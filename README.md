@@ -29,10 +29,10 @@ This file is the shared template for all developers. Always create and edit your
 ## ▶️ Launch the Project Locally
 
 ```bash
-make init     # initialize Terraform
-make plan     # preview infrastructure changes
-make apply    # apply infrastructure changes
-make destroy  # clean up all infrastructure
+make init # initialize Terraform
+make plan # preview infrastructure changes
+make apply # apply infrastructure changes
+make destroy # clean up all infrastructure
 ```
 
 ---
