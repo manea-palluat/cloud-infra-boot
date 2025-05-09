@@ -18,3 +18,6 @@ clean:
 
 destroy:
 	docker compose run terraform destroy
+
+fmt:
+	docker compose run terraform fmt -recursive

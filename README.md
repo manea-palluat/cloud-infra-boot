@@ -1,4 +1,4 @@
-# 🚀 Cloud Infra-as-Code Boot
+# Cloud Infra-as-Code Boot
 
 ![Terraform](https://img.shields.io/badge/Terraform-✔️-623CE4?logo=terraform)
 ![CI](https://github.com/manea-palluat/cloud-infra-boot/actions/workflows/ci.yml/badge.svg)
@@ -7,7 +7,14 @@ Modular AWS infrastructure with Terraform, CI/CD, FinOps dashboards, budget aler
 
 ---
 
-## 🔐 AWS Credentials Configuration
+## Example Use Case
+
+> Quickly bootstrap a reusable, secure, and automated AWS infrastructure  
+for personal projects, client demos, or cloud training labs.
+
+---
+
+## AWS Credentials Configuration
 
 1. Copy the template file:
    ```bash
@@ -26,7 +33,7 @@ This file is the shared template for all developers. Always create and edit your
 
 ---
 
-## ▶️ Launch the Project Locally
+## ▶Launch the Project Locally
 
 ```bash
 make init # initialize Terraform
@@ -37,7 +44,7 @@ make destroy # clean up all infrastructure
 
 ---
 
-## ⚙️ Setup CI/CD in Your Fork
+## Setup CI/CD in Your Fork
 
 1. Go to your fork → **Settings** → **Secrets and variables** → **Actions**
 
@@ -50,7 +57,7 @@ make destroy # clean up all infrastructure
 
 ---
 
-## 💡 Features
+## Features
 
 ✅ Modular AWS resources (S3, CloudFront, EC2, etc.)  
 ✅ Docker-based Terraform environment  
@@ -61,7 +68,7 @@ make destroy # clean up all infrastructure
 
 ---
 
-## 📣 Coming Next
+## Coming Next
 
 - Add static website hosting (S3 + CloudFront + HTTPS)  
 - Integrate CloudWatch monitoring and alarms  
@@ -70,13 +77,20 @@ make destroy # clean up all infrastructure
 
 ---
 
-## 🏗 Example Use Case
+## Roadmap
 
-> Quickly bootstrap a reusable, secure, and automated AWS infrastructure  
-for personal projects, client demos, or cloud training labs.
+- [x] Deploy AWS S3 bucket with versioning (Terraform)
+- [x] Set up Docker + Makefile workflow
+- [x] Configure GitHub Actions (CI/CD)
+- [x] Add CI and Terraform badges in README
+- [ ] Enable S3 static website hosting
+- [ ] Add CloudFront distribution + HTTPS (ACM certificate)
+- [ ] Integrate CloudWatch monitoring + budget alerts (SNS, Lambda)
+- [ ] Automate terraform plan in CI/CD pipeline
+- [ ] Prepare multi-environment setup (dev, staging, prod)
 
 ---
 
-## 🙌 Contributing
+## Contributing
 
-Feel free to fork, improve, and open pull requests!
+Feel free to fork, improve, and open pull requests!   
