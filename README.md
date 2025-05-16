@@ -72,7 +72,7 @@ make destroy # clean up all infrastructure
 
 - Add static website hosting (S3 + CloudFront + HTTPS)  
 - Integrate CloudWatch monitoring and alarms  
-- Enable FinOps dashboards (Athena + QuickSight)  
+- Enable FinOps dashboards (Athena + Qu²ickSight)  
 - Add Slack/email budget alerts via SNS + Lambda
 
 ---
